@@ -18,4 +18,15 @@
 #     print("please entar the M");
 
 
+# Q3 Accept an integer and check if it is even or odd.
+# Input: 9
+# Output: 9 is Odd
+
+num = int(input("please entar the numaber "));
+if num % 2 == 0:
+    print("this is a sum number");
+else:
+    print("this is a odd numar");
+
+
 
