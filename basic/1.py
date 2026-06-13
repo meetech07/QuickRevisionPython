@@ -77,6 +77,28 @@ print(fist_name[0:len(fist_name):1]);     # len ek lenght hai jise total index k
 #  4.  fist_name[0:6:1]  or final 1 ka matal ye hai ki kitna kitna gap ke bad sring chahiye matalb jaise c programing me pade hai i++
 
 
+#Type Conversion
+# You can convert a value from one type to another using these built-in functions: Examples
+age = 21.5;    # it float data type the convart the ins data type matalb intages 
+print(str(age));  
+age_str =  str(age);
+print(type(age_str))   # output 21
+
+last_name = "10";
+print(type(last_name));
+print(int(last_name));
+
+# matalb samjho  kiska valu kime convart hoga 
+# int ->  <- float 
+# str (Sting) <- int or float domo me  but 
+# int or float ka bhi Srt me change nahi ho payega 
+# impotent baat samjho Type Conversion me 7 aayese valu hota hai liska bool matal boolean false hota hai 
+# Everything converts to True with bool() — except these 7 values which become False:
+#   0, 0.0, False, "", [], {}, ()
+
+ 
+
+
 
    
 
