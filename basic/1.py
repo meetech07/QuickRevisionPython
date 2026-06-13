@@ -41,3 +41,15 @@ print(type(b));
 print(type(c));
 print(type(d));
 
+# Strings & Type Conversion
+# Each character in a string is stored with its own Unicode number. That's why strings use more memory than integers.
+
+print(ord("B"));   # → 66  (Unicode of B)
+print(chr(64))   # → "@" (Character from Unicode)
+
+# the "ord" function the use the print a Unicode number and the synex is 
+# ord("pass the value")
+
+
+
+
