@@ -48,3 +48,12 @@ for i in range(1,11):
     print(i**2)
 
 # nid levar questionce
+
+#5. Write a for loop that prints the first 10 Fibonacci numbers.
+a, b = 0, 1
+for i in range(10):
+    print(a)
+    a, b = b, a + b
+
+
+# 6. Write a for loop that prints the multiplication table of 5.
