@@ -13,3 +13,38 @@
 for i in range(10,21,1):
     print(i)
 
+
+
+# for loop ke andar bhi break aur continue ka use hota hai
+
+for i in range(1,10):
+    if i == 5:
+        break
+    print(i)
+
+#continua example
+for i in range(1,10):
+    if i == 5:
+        continue
+    print(i)
+
+    # Questions
+
+# 1. Write a for loop that prints the numbers from 1 to 10.
+for i in range(1,11):
+    print(i)
+
+ # 2. Write a for loop that prints the even numbers from 1 to 20.
+for i in range(2,21,2):
+    print(i)
+
+
+# 3. Write a for loop that prints the odd numbers from 1 to 20
+for i in range(1,21,2):
+    print(i)
+
+# 4. Write a for loop that prints the squares of the numbers from 1 to 10.
+for i in range(1,11):
+    print(i**2)
+
+# nid levar questionce
