@@ -60,15 +60,15 @@
 # Input: 25 Pleasant 😊
 # Input: 45 Very Hot 🔥
 
-temp = int(input("intar the Temperature "));
-if 10 >= temp:
-    print("Freezing Cold 🥶")
-elif 25 >= temp and 11 <= temp:
-    print("Pleasant 😊");
-elif 37 >= temp and 26 <= temp:
-    print(" Hot🔥");
-elif temp >=38:
-    print("Very Hot 🔥");
-else:
-    print("please entar the valid number");
+# temp = int(input("intar the Temperature "));
+# if 10 >= temp:
+#     print("Freezing Cold 🥶")
+# elif 25 >= temp and 11 <= temp:
+#     print("Pleasant 😊");
+# elif 37 >= temp and 26 <= temp:
+#     print(" Hot🔥");
+# elif temp >=38:
+#     print("Very Hot 🔥");
+# else:
+#     print("please entar the valid number");
 
