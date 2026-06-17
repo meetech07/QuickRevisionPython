@@ -23,3 +23,18 @@ print(my_list)
 # man lo hm koi ek ka name change karna chahte hai to hm index ka use karenge
 my_list[1] = "blueberry"
 print(my_list)
+
+# ek ek object kaise acices karte hai 
+# lish ke object ko nikalne ka do tarica hota hai aao ek ek kar ke samjhate hai.
+
+# BINA INDEX KE 
+
+for i in my_list:
+    print(i)
+
+
+# index se object ka exace karne ka tarika 
+for i in range(0,len(my_list),1):
+    print(my_list[i])    # "I" holde the indexce values
+
+
