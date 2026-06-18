@@ -37,4 +37,23 @@ for i in my_list:
 for i in range(0,len(my_list),1):
     print(my_list[i])    # "I" holde the indexce values
 
+# methodes
+
+lst = [3, 1, 4, 1, 5]
+
+lst.append(9)       # [3,1,4,1,5,9]   — add to end matalb samjho ye value ko end me add karta hai. 
+lst.insert(0, 0)    # [0,3,1,4,1,5,9] — insert at index
+# # (method) def insert(
+#     index: SupportsIndex,
+#     object: int,
+#     /
+# ) how to work in insarte medaode matalb samjho isme do value aata hai pahle o index jaha value ko lagana hai
+#  or dusra o jo lish me valu ko add karna hai. 
+
+
+lst.remove(1)       # removes first 1
+lst.pop()            # removes last element
+lst.sort()           # sort ascending
+lst.reverse()        # reverse in place
+len(lst)             # number of items
 
